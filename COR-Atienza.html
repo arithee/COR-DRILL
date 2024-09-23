@@ -4,16 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .logo{
+            text-align: left;
+            margin-left: 20px;
+        }
+        .logo .text1{
+            color: gray;
+            font-size: 10px;
+        }
+        .logo .text2{
+            font-size: 14px;
+            font-weight: bold;
+        }
+        h2{
+            text-align: center;
+            margin: 0;
+            font-size: 18px;
+        }
+        .reg-no{
+            text-align: left;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
+    
     <header>
-        Republic of the Philippines
-        Palawan State University
-        Puerto Princesa City
-        CERTIFICATE OF REGISTRATION
-        Registration No: 000366513
+        <div class="logo">
+            <img src="psu-logo.jpg">
+            <div>
+                <p class="text1">Republic of the Philippines</p>
+                <p class="text2">Palawan State University</p>
+                <p class="text1">Puerto Princesa City</p>
+            </div>
+        </div>
     </header>
-    <h2>STUDENT GENERAL INFORMATION</h2>
+    
+    <h2>CERTIFICATE OF REGISTRATION</h2>
+
+    <div class="reg-no">
+        Registration No: 000366513
+    </div>
+    <h3>STUDENT GENERAL INFORMATION</h3>
     <div class="grid-container">
         <div class="grid-item">Student No: 2021-8-0173</div>
         <div class="grid-item">Name: ATIENZA, DEREK TREVOR NAMBIO</div>
@@ -27,7 +69,7 @@
         <div class="grid-item">Year Level: 3rd Year</div>
       </div>
 
-    <h2>
+    <h3>
         CODE
         SUBJECT TITLE 
         UNIT 
@@ -35,7 +77,8 @@
         SECTION 
         SCHEDULE/ROOM 
         FACULTY SIGNATURE
-    </h2>
+    </h3>
+
     <footer>
         KEEP THIS CERTIFICATE. YOU WILL BE REQUIRED TO PRESENT THIS IN ALL YOUR DEALINGS WITH THE COLLEGE.
     </footer>
