@@ -40,13 +40,26 @@
 
 
 
-        .grid-container{
-            display: grid;
-            grid-template-columns: auto auto auto;
-            padding: 10px;
+        #first-table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: skyblue;
+            color: black;
         }
-        .grid-item{
-            padding: 20px;
+        #second-table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: skyblue;
+            color: black;
+        }
+        #third-table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: skyblue;
+            color: black;
         }
     </style>
 </head>
@@ -69,42 +82,84 @@
         Registration No: 000366513
     </div>
 
+    <div class="first-section">
+        <table id="first-table">
+            <tr>
+                <th>STUDENT GENERAL INFORMATION</th>
+            </tr>
 
-    <h3>STUDENT GENERAL INFORMATION</h3>
-    <div class="grid-container">
-        <div class="grid-item">Student No: 2021-8-0173</div> <!--1-->
-        <div class="grid-item">College: College of Sciences</div>    <!--2-->
-        <div class="grid-item">School Year: 2024-2025 FIRST SEMESTER</div><!--3-->
-        <div class="grid-item">Name: ATIENZA, DEREK TREVOR NAMBIO</div><!--4-->
-        <div class="grid-item">Program Major: Bachelor of Science in Information Technology</div><!--5-->
-        <div class="grid-item">Age: 22</div><!--6-->
-        <div class="grid-item">Gender: Male</div><!--7-->
-        <div class="grid-item">Curriculum: 08-BSIT-2019</div>   <!--8-->
-        <div class="grid-item">Scholarship:</div>   <!--9-->
-        <div class="grid-item">Year Level: 3rd Year</div>   <!--10-->
-      </div>
+            <tr>
+                <td>Student No: 2021-8-0173</td>
+                <td>College: College of Sciences</td>
+                <td>School Year: 2024-2025 FIRST SEMESTER</td>
+            </tr>
+            
+            <tr>
+                <td>Name: ATIENZA, DEREK TREVOR NAMBIO</td>
+                <td>Program Major: Bachelor of Science in Information Technology</td>
+                <td>Curriculum: 08-BSIT-2019</td>
+            </tr>
+
+            <tr>
+                <td>Gender: Male</td>
+                <td>Age: 22</td>
+                <td>Year Level: 3rd Year</td>
+                <td>Scholarship:</td>
+            </tr>
+        </table>
+    </div>
 
    
     <div class="second-section">
-        <h3>
-            CODE
-            SUBJECT TITLE 
-            UNIT 
-            Lec Lab Credit
-            SECTION 
-            SCHEDULE/ROOM 
-            FACULTY SIGNATURE
-        </h3>
+            <table id="second-table">
+                <tr>
+                    <th>CODE</th>
+                    <th>SUBJECT TITLE </th>
+                    <th>UNIT<br>Lec Lab Credit</th>
+                    <th>SECTION </th>
+                    <th>SCHEDULE/ROOM </th>
+                    <th>FACULTY SIGNATURE</th>
+                </tr>
+                <tr>
+                    <td>IT 11/L</td>
+                    <td>Information Assurance and Security 1</td>
+                    <td>2.0 1.0 3.0</td>
+                    <td>BSIT3B1</td>
+                    <td>T 01:30 PM - 4:30 PM / IT101 <br>
+                    Th 11:30 AM - 01:30 PM / CL1</td>
+                    <td>Dosado, Roy Cyril D.</td>
+                </tr>
+            </table>    
     </div>
     
     <div class="third-section">
-        ASSESSED FEES
-
-        RULES ON REFUND
-        1. Full refund of tuition fee- Before the start of classes.
-        2. 80% refund of tuition fee - within 1 week from the start of classes.
-        3. 50% refund - within 2 weeks from the start of classes.
-        4. No refund - after the 2nd week of classes.
+        <table id="third-table">
+            <tr>
+                <th>ASSESSED FEES</th>
+            </tr>
+            <tr>
+                <td>Tuition Fee (21@200)</td>
+                <td>4,200.00</td>
+            </tr>
+        </table>
+        
+        <table id="refund-table">
+            <tr>
+                <th>RULES ON REFUND</th>
+            </tr>
+            <tr>
+                <td>1. Full refund of tuition fee- Before the start of classes.</td>
+            </tr>
+            <tr>
+                <td>2. 80% refund of tuition fee - within 1 week from the start of classes.</td>
+            </tr>
+            <tr>
+                <td>3. 50% refund - within 2 weeks from the start of classes.</td>
+            </tr>
+            <tr>
+                <td>4. No refund - after the 2nd week of classes.</td>
+            </tr>
+        </table> 
     </div>
 
 
