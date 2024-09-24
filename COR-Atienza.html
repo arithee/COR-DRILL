@@ -4,83 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        img{
-            width: 100px;
-            height: 100px;
-        }
-        header{
-            display: flex;
-            align-items: center;
-            padding: 10px 0;
-        }
-        .logo{
-            text-align: left;
-            margin-left: 20px;
-        }
-        .logo .text1{
-            color: gray;
-            font-size: 10px;
-        }
-        .logo .text2{
-            font-size: 14px;
-            font-weight: bold;
-        }
-        h2{
-            text-align: center;
-            margin: 0;
-            font-size: 18px;
-        }
-        .reg-no{
-            text-align: left;
-            font-size: 14px;
-        }
-
-
-
-
-        #first-table {
-            border: 1px solid black;
-            width: 100%;
-        }
-        .first-section .first-th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: center;
-            background-color: skyblue;
-            color: black;
-            font-weight: bold;
-        }
-        #second-table {
-            width: 100%;
-            border-collapse: co llapse;
-        }
-        #second-table th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: center;
-            background-color: skyblue;
-            color: black;
-        }
-        #third-table th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: left;
-            background-color: skyblue;
-            color: black;
-        }
-        #refund-table {
-            
-        }
-        footer {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: center;
-            background-color: skyblue;
-            color: black;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
@@ -205,102 +129,98 @@
     </div>
     
     <div class="third-section">
-        <table id="third-table">
-            <tr>
-                <th>ASSESSED FEES</th>
-            </tr>
-            <tr>
-                <td>Tuition Fee (21@200)</td>
-                <td>4,200.00</td>
-            </tr>
-            <tr>
-                <td>Misc - Library Fees</td>
-                <td>200.00</td>
-            </tr>
-            <tr>
-                <td>Misc - Athletics</td>
-                <td>300.00</td>
-            </tr>
-            <tr>
-                <td>Misc - School Paper</td>
-                <td>100.00</td>
-            </tr>
-            <tr>
-                <td>Audio Visual Media Center</td>
-                <td>100.00</td>
-            </tr>
-            <tr>
-                <td>Student Government Organization Membership Fee</td>
-                <td>140.00</td>
-            </tr>
-            <tr>
-                <td>Misc - Registration Fee</td>
-                <td>100.00</td>
-            </tr>
-            <tr>
-                <td>Misc - Medical & Dental Fees</td>
-                <td>100.00</td>
-            </tr>
-            <tr>
-                <td>Guidance Fee</td>
-                <td>100.00</td>
-            </tr>
-            <tr>
-                <td>Misc - Cultural Fee</td>
-                <td>100.00</td>
-            </tr>
-            <tr>
-                <td>SGO - Insurance Fee</td>
-                <td>50.00</td>
-            </tr>
-            <tr>
-                <td>Computer Laboratory Fees (IT8/L (500); IT 9/L (500); IT</td>
-                <td>3,000.00</td>
-            </tr>
-            <tr>
-                <td>Total Assessment:</td>
-                <td>Php 8,490.00</td>
-            </tr>
-            <tr>
-                <td>Total Payment:</td>
-                <td>0.00</td>
-            </tr>
-            <tr>
-                <td>Outstanding Balance:</td>
-                <td>Php 8,490.00</td>
-            </tr>
-            <tr>
-                <th>SCHEDULE OF PAYMENT</th>
-            </tr>
-            <tr>
-                <td>1st Pymnt / Due Date</td>
-                <td>2nd Pymnt / Due Date</td>
-                <td>3rd Pymnt / Due Date</td>
-            </tr>
-            <tr>
-                <td>3,390.00 05/12/2024</td>
-                <td>2,520.00 08/25/2024</td>
-                <td>2,580.00 11/29/2024</td>
-            </tr>
-        </table>
+        <div class ="fees-table">
+            <table>
+                <tr>
+                    <th>ASSESSED FEES</th>
+                </tr>
+
+                <tr>
+                    <td>Tuition Fee (21@200)</td>
+                    <td>4,200.00</td>
+                </tr>
+                <tr>
+                    <td>Misc - Library Fees</td>
+                    <td>200.00</td>
+                </tr>
+                <tr>
+                    <td>Misc - Athletics</td>
+                    <td>300.00</td>
+                </tr>
+                <tr>
+                    <td>Misc - School Paper</td>
+                    <td>100.00</td>
+                </tr>
+                <tr>
+                    <td>Audio Visual Media Center</td>
+                    <td>100.00</td>
+                </tr>
+                <tr>
+                    <td>Student Government Organization Membership Fee</td>
+                    <td>140.00</td>
+                </tr>
+                <tr>
+                    <td>Misc - Registration Fee</td>
+                    <td>100.00</td>
+                </tr>
+                <tr>
+                    <td>Misc - Medical & Dental Fees</td>
+                    <td>100.00</td>
+                </tr>
+                <tr>
+                    <td>Guidance Fee</td>
+                    <td>100.00</td>
+                </tr>
+                <tr>
+                    <td>Misc - Cultural Fee</td>
+                    <td>100.00</td>
+                </tr>
+                <tr>
+                    <td>SGO - Insurance Fee</td>
+                    <td>50.00</td>
+                </tr>
+                <tr>
+                    <td>Computer Laboratory Fees (IT8/L (500); IT 9/L (500); IT</td>
+                    <td>3,000.00</td>
+                </tr>
+                
+                <tr>
+                    <td>Total Assessment:</td>
+                    <td>Php 8,490.00</td>
+                </tr>
+                <tr>
+                    <td>Total Payment:</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td>Outstanding Balance:</td>
+                    <td>Php 8,490.00</td>
+                </tr>
+                <tr>
+                    <th>SCHEDULE OF PAYMENT</th>
+                </tr>
+                <tr>
+                    <td>1st Pymnt / Due Date</td>
+                    <td>2nd Pymnt / Due Date</td>
+                    <td>3rd Pymnt / Due Date</td>
+                </tr>
+                <tr>
+                    <td>3,390.00 05/12/2024</td>
+                    <td>2,520.00 08/25/2024</td>
+                    <td>2,580.00 11/29/2024</td>
+                </tr>
+            </table>
+        </div>
         
-        <table id="refund-table">
-            <tr>
-                <th>RULES ON REFUND</th>
-            </tr>
-            <tr>
-                <td>1. Full refund of tuition fee- Before the start of classes.</td>
-            </tr>
-            <tr>
-                <td>2. 80% refund of tuition fee - within 1 week from the start of classes.</td>
-            </tr>
-            <tr>
-                <td>3. 50% refund - within 2 weeks from the start of classes.</td>
-            </tr>
-            <tr>
-                <td>4. No refund - after the 2nd week of classes.</td>
-            </tr>
-        </table> 
+        <div class="refund-table">
+            <h2>Rules on Refund</h2>
+            <ul>
+                <li>Full refund of tuition fee - Before the start of classes.</li>
+                <li>80% refund of tuition fee - within 1 week from the start of classes.</li>
+                <li>50% refund - within 2 weeks from the start of classes.</li>
+                <li>No refund - after the 2nd week of classes.</li>
+            </ul>
+        </div>
     </div>
 
     <footer>

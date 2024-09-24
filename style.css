@@ -1,0 +1,105 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    text-align: left;
+    margin-left: 20px;
+}
+.logo .text1{
+    color: gray;
+    font-size: 10px;
+}
+.logo .text2{
+    font-size: 14px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+.reg-no{
+    text-align: left;
+    font-size: 14px;
+}
+
+
+
+
+#first-table {
+    border: 1px solid black;
+    width: 100%;
+}
+.first-th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+    font-weight: bold;
+}
+
+#second-table {
+    width: 100%;
+    border-collapse: co llapse;
+}
+#second-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+}
+
+
+
+
+
+.third-section{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.fees-table, .refund-table{
+    width: 48%;
+}
+.refund-table{
+    
+}
+.third-section th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    width: 100%;
+    background-color: skyblue;
+    color: black;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+footer {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+    font-weight: bold;
+}
