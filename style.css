@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+
 img{
     width: 100px;
     height: 100px;
@@ -5,11 +17,13 @@ img{
 header{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 10px 0;
 }
 .logo{
-    text-align: left;
-    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 .logo .text1{
     color: gray;
@@ -18,23 +32,28 @@ header{
 .logo .text2{
     font-size: 14px;
     font-weight: bold;
-}
-h2{
-    text-align: center;
-    margin: 0;
-    font-size: 18px;
-}
-.reg-no{
-    text-align: left;
-    font-size: 14px;
+    margin: 5px 0;
 }
 
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.reg-no{
+    text-align: left;
+    font-size: 16px;
+}
 
 
 
 #first-table {
     border: 1px solid black;
     width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
 }
 .first-th{
     padding-top: 12px;
@@ -47,7 +66,9 @@ h2{
 
 #second-table {
     width: 100%;
-    border-collapse: co llapse;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid black;
 }
 #second-table th {
     padding-top: 12px;
@@ -60,46 +81,42 @@ h2{
 
 
 
-
-.third-section{
+.third-section {
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
     background-color: white;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
 }
-.fees-table, .refund-table{
+
+.fees-table, .refund-table {
     width: 48%;
 }
-.refund-table{
+
+.fees-table th{
+    background-color: skyblue;
+    padding: 12px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
     
 }
-.third-section th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    width: 100%;
-    background-color: skyblue;
-    color: black;
+
+.fees-table td {
+    padding: 8px;
+    border: 1px solid black;
 }
-table, th, td {
-    border: 1px solid #ccc;
+.refund-table ul li {
+    padding: 8px 0;
 }
-
-
-
-
-
-
 
 
 footer {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 12px;
     text-align: center;
     background-color: skyblue;
-    color: black;
     font-weight: bold;
+    margin-top: 20px;
 }
